@@ -1,0 +1,36 @@
+.nav-color{
+    color: red;
+}
+.nav-container{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border: 2px solid gold;
+    padding: 0px 5px;
+    background-color:lightcyan;
+    border-radius: 5px;
+}
+.nav-container:hover{
+    margin-right: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    border: 2px solid yellow;
+    padding: 0px 5px;
+    background-color:gray;
+}
+.nav-name{
+    text-decoration: none;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: larger;
+    color: black;
+}
+.nav-break{
+    display: flex;
+    flex-direction: column;
+}
+.nav-break1{
+    display: flex;
+}
