@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Paint1 = () => {
+const Paint2 = () => {
     return (
         <div>
-            <h1>Paint1</h1>
+            <h1>Paint2</h1>
         </div>
     );
 };
 
-export default Paint1;
+export default Paint2;

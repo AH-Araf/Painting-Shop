@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Paint1 = () => {
+const Blog = () => {
     return (
         <div>
-            <h1>Paint1</h1>
+            <h1>Blog</h1>
         </div>
     );
 };
 
-export default Paint1;
+export default Blog;

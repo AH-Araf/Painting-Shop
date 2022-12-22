@@ -35,21 +35,21 @@ const Header = () => {
                                 <div className='nav-break'>
                                     
                                         <Link className='nav-container' to='/paint1'>One Person Digi Painting</Link>  
-                                        <Link className='nav-container' to='/blog'>Couple Digi Painting</Link> 
-                                        <Link className='nav-container' to='/paint1'>Family Digi Painting</Link>  
-                                        <Link className='nav-container' to='/blog'>Family Digi Painting</Link> 
-                                        <Link className='nav-container' to='/'>One Person Handmade Painting</Link>  
-                                        <Link className='nav-container' to='/blog'>Couple Handmade Painting</Link> 
-                                        <Link className='nav-container' to='/'>Family Handmade Painting</Link>  
-                                        <Link className='nav-container' to='/blog'>Handmade Pencil Sketch</Link>   
+                                        <Link className='nav-container' to='/paint2'>Couple Digi Painting</Link> 
+                                        <Link className='nav-container' to='/paint3'>Family Digi Painting</Link>  
+                                        <Link className='nav-container' to='/paint4'>Family Digi Painting</Link> 
+                                        <Link className='nav-container' to='/paint1'>One Person Handmade Painting</Link>  
+                                        <Link className='nav-container' to='/paint2'>Couple Handmade Painting</Link> 
+                                        <Link className='nav-container' to='/paint3'>Family Handmade Painting</Link>  
+                                        <Link className='nav-container' to='/paint4'>Handmade Pencil Sketch</Link>   
                                 </div>
                                
                             </NavDropdown>
                             
                             <NavDropdown className='nav-container'  title="Specials" id="collasible-nav-dropdown"show={show1}onMouseEnter={showDropdown1} onMouseLeave={hideDropdown1}>
                             <div className='nav-break'>
-                                <Link className='nav-container' to='/'>Black & White to Colorful Painting</Link>  
-                                <Link className='nav-container' to='/blog'>Merge Different Pictures in a Painting</Link> 
+                                <Link className='nav-container' to='/paint1'>Black & White to Colorful Painting</Link>  
+                                <Link className='nav-container' to='/paint2'>Merge Different Pictures in a Painting</Link> 
                                 </div>
                             </NavDropdown>
                         
