@@ -1,21 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import gg from '././../assets/images/gg.png';
 import k from '././../assets/images/k.png';
 import l from '././../assets/images/l.png';
 import m from '././../assets/images/m.png';
 import n from '././../assets/images/n.png';
 import o from '././../assets/images/o.png';
 
-
-const OurProducts = () => {
+const BulkOrder = () => {
     return (
         <div>
-            <div className='title'>
-                <h2 className='mt-5'>OUR PRODUCTS</h2>
-                <h5>BUTTISTORE SKETCHES YOUR MOST <span className='title-color'>MEMORABLE PAINTINGS</span> FROM YOUR FAVOURITE PHOTOS</h5>
+            <div className='img-center1'>
+                <img  src={gg} alt="" />
             </div>
-            <div>
-                <div className='display-grid'>
+            <div className='display-grid'>
                     <Link to='/paint2'>
                     <div className='single-card'>
                         <img
@@ -67,9 +65,8 @@ const OurProducts = () => {
                     </div>
                     </Link>
                 </div>
-            </div>
         </div>
     );
 };
 
-export default OurProducts;
+export default BulkOrder;

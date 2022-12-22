@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 import a from '././../assets/images/a.png';
 import b from '././../assets/images/b.png';
 import c from '././../assets/images/c.png';
@@ -8,6 +9,7 @@ const ImageSlider = () => {
     return (
         <div>
             <div className='carousel-con mb-5'>
+            <Link to='/paint2'>
             <Carousel>
                 <Carousel.Item>
                 <img
@@ -31,6 +33,7 @@ const ImageSlider = () => {
                 />
                 </Carousel.Item>
             </Carousel>
+            </Link>
             </div>
         </div>
     );

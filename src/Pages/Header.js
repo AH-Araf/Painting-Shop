@@ -29,7 +29,8 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Link className='nav-container' to='/paint1'>Shop</Link>  
+                    <Link className='nav-container' to='/'>Home</Link> 
+                        <Link className='nav-container' to='/shop'>Shop</Link>  
                             <NavDropdown className='nav-container'  title="Personalized Gifts" id="collasible-nav-dropdown"show={show}onMouseEnter={showDropdown} onMouseLeave={hideDropdown}>
                                 
                                 <div className='nav-break'>
@@ -37,7 +38,7 @@ const Header = () => {
                                         <Link className='nav-container' to='/paint1'>One Person Digi Painting</Link>  
                                         <Link className='nav-container' to='/paint2'>Couple Digi Painting</Link> 
                                         <Link className='nav-container' to='/paint3'>Family Digi Painting</Link>  
-                                        <Link className='nav-container' to='/paint4'>Family Digi Painting</Link> 
+                                        <Link className='nav-container' to='/paint4'>Digi Merge Painting</Link> 
                                         <Link className='nav-container' to='/paint1'>One Person Handmade Painting</Link>  
                                         <Link className='nav-container' to='/paint2'>Couple Handmade Painting</Link> 
                                         <Link className='nav-container' to='/paint3'>Family Handmade Painting</Link>  
@@ -54,7 +55,7 @@ const Header = () => {
                             </NavDropdown>
                         
                         
-                        <Link className='nav-container' to='/blog'>Bulk Order</Link> 
+                        <Link className='nav-container' to='/bulk'>Bulk Order</Link> 
                         <Link className='nav-container' to='/blog'>Blog</Link> 
                     </Nav>
                     <br />   

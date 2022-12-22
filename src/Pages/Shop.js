@@ -7,15 +7,13 @@ import n from '././../assets/images/n.png';
 import o from '././../assets/images/o.png';
 
 
-const OurProducts = () => {
+const Shop = () => {
     return (
         <div>
             <div className='title'>
-                <h2 className='mt-5'>OUR PRODUCTS</h2>
-                <h5>BUTTISTORE SKETCHES YOUR MOST <span className='title-color'>MEMORABLE PAINTINGS</span> FROM YOUR FAVOURITE PHOTOS</h5>
+                <h2 className=''>SHOP HERE</h2>
             </div>
-            <div>
-                <div className='display-grid'>
+            <div className='display-grid'>
                     <Link to='/paint2'>
                     <div className='single-card'>
                         <img
@@ -67,9 +65,8 @@ const OurProducts = () => {
                     </div>
                     </Link>
                 </div>
-            </div>
         </div>
     );
 };
 
-export default OurProducts;
+export default Shop;
