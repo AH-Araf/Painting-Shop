@@ -1,6 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../layout/Main";
 import Blog from "../Pages/Blog";
+import Blog1 from "../Pages/Blog1";
+import Blog2 from "../Pages/Blog2";
+import Blog3 from "../Pages/Blog3";
 import BulkOrder from "../Pages/BulkOrder";
 import Home from "../Pages/Home";
 import Paint1 from "../Pages/Paint1";
@@ -45,6 +48,18 @@ export const routes = createBrowserRouter([
             {
                 path:'/blog',
                 element: <Blog></Blog>,
+            },
+            {
+                path:'/blog1',
+                element: <Blog1></Blog1>,
+            },
+            {
+                path:'/blog2',
+                element: <Blog2></Blog2>,
+            },
+            {
+                path:'/blog3',
+                element: <Blog3></Blog3>,
             },
         ]
     }

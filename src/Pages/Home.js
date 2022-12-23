@@ -11,15 +11,17 @@ import WhyButtistore from './WhyButtistore';
 const Home = () => {
     return (
         <div>
-            <div className='d-flex'>
+            <div className='d-flex break'>
                 <ImageSlider></ImageSlider>
                 <RightImage></RightImage>
             </div>
             <Details></Details>
             <div>
                 <Trending></Trending>
+            </div><br />
+            <div className='m-t'>
+                <OurProducts></OurProducts>
             </div>
-            <OurProducts></OurProducts>
             <CustomersReview></CustomersReview>
             <WhyButtistore></WhyButtistore>
             <FollowUs></FollowUs>

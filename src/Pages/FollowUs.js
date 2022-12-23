@@ -12,7 +12,7 @@ const FollowUs = () => {
                 <h1>Follow us on</h1>
                 <p>Social media for latest offers & monthly contests</p>
             </div>
-            <div className='d-flex justify-content-center'>
+            <div className='d-flex justify-content-center break'>
                 
                 <a target="_blank" href='https://www.facebook.com/buttistore'>
                     <div className='image-size'>

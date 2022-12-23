@@ -10,7 +10,7 @@ import o from '././../assets/images/o.png';
 const BulkOrder = () => {
     return (
         <div>
-            <div className='img-center1'>
+            <div className='img-center1 carousel-con'>
                 <img  src={gg} alt="" />
             </div>
             <div className='display-grid'>

@@ -19,7 +19,7 @@ const WhyButtistore = () => {
                 />
             </div>
             </div>
-            <div className='image-edit text-center'>
+            <div className='image-edit text-center carousel-con'>
                 <img
                     className="d-block"
                     src={r}

@@ -9,7 +9,7 @@ import o from '././../assets/images/o.png';
 
 const OurProducts = () => {
     return (
-        <div>
+        <div className='  title1'>
             <div className='title'>
                 <h2 className='mt-5'>OUR PRODUCTS</h2>
                 <h5>BUTTISTORE SKETCHES YOUR MOST <span className='title-color'>MEMORABLE PAINTINGS</span> FROM YOUR FAVOURITE PHOTOS</h5>

@@ -57,6 +57,14 @@
     gap: 0px 40px;    
     background-color: aliceblue; 
 }
+.display-grid1{
+    display: grid;
+    
+    grid-template-columns: repeat(2, 1fr);
+    margin: 40px;   
+    gap: 70px;    
+    background-color: aliceblue; 
+}
 .right-image img{
     width: 300px;
     margin-top: 40px;
@@ -172,4 +180,74 @@
     border-radius: 10px;
     margin: 4px;
     width: 70px;
+}
+
+/* Break point for mobile */
+@media only screen and (max-width: 516px){
+    .break{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-con{
+        width: 350px;
+        height: 200px;
+        margin: 5px 5px;
+    }
+    .carousel-con img{
+        width: 350px;
+        height: 200px;
+        border-radius: 9px;
+    }
+    .display-grid{
+        display: grid;
+        
+        grid-template-columns: repeat(1, 1fr);
+          
+        background-color: aliceblue; 
+    }
+    .title1{
+        margin-top: 1100px;
+    }
+    .display-grid1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px;   
+        gap: 10px;    
+        background-color: aliceblue; 
+    }
+}
+
+
+/* Break point for tab*/
+@media only screen and (min-width: 516px) and (max-width:1150px) {
+    .break{
+        display: flex;
+        flex-direction: column;
+    }
+    .carousel-con{
+        width: 750px;
+        height: 500px;
+        margin: 15px 15px;
+    }
+    .carousel-con img{
+        width: 750px;
+        border-radius: 20px;
+    }
+    .display-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 40px 0;   
+        gap: 0px 40px;    
+        background-color: aliceblue; 
+    }
+    .title1{
+        margin-top: 700px;
+    }
+    .display-grid1{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 30px;   
+        gap: 20px;    
+        background-color: aliceblue; 
+    }
 }
