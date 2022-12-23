@@ -105,7 +105,7 @@ const Paint3 = () => {
             </div>
     </div>
 </div>
-                <div className='img-center1'>
+                <div className='img-center1 carousel-con'>
                     <img  src={y} alt="" />
                     <img src={d} alt="" />
                     <img src={z} alt="" /><br />
