@@ -15,7 +15,7 @@ const Paint3 = () => {
             <div className='row paint1-img'>
             {/* <div className='d-flex justify-content-between'> */}
                 {/* <div className='n-4 paint1-img'> */}
-                <div className='col'>
+                <div className='col img-small1'>
                     <img src={ee} alt="" />
                 </div>
                 <div className='col mt-5'>
@@ -39,48 +39,48 @@ const Paint3 = () => {
                     </div>
                     <div className='row mt-5 div-con'>
                         <h4>Frame Size</h4>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>Softcopy <br />
                             (onemail)</p>
                         </div>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>A5 <br />
                             (5.8*8.3in)</p>
                         </div>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>A4 <br />
                             (8.3*11.7in)</p>
                         </div>
                     </div>
                     <div className='row mt-2 mb-5 div-con'>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>A3 <br />
                             (16.5*11.7in)</p>
                         </div>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>A2 <br />
                             (8.3*11.7in)</p>
                         </div>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>A1 <br />
                             (9.4*11.7in)</p>
                         </div>
                     </div>
                     <div className='row div-con'>
                         <h4>No. of People & Pets in your photo</h4>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>1 Person</p>
                         </div>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>2 Person</p>
                         </div>
-                        <div className='col button-col'>
+                        <div className='col col-4 button-col'>
                             <p>3 Person</p>
                         </div>
                     </div>
 
                     <div className='d-flex justify-content-between mb-5 mt-5'>
-                        <div className='row'>
+                        <div className='row col-6'>
                         <h4>Process & Delivery Priority</h4>
                             <div className='col button-col'>
                             <p>Standard</p>
@@ -89,8 +89,8 @@ const Paint3 = () => {
                             <p>Express</p>
                             </div>
                         </div>
-                        <div className='mt-5 me-4'>
-                            <h4 className='title-color'>₹990.00</h4>
+                        <div className='mt-5 me-4 col-6'>
+                            <h4 className='title-color'>₹1990.00</h4>
                             <p>✔ Available</p>
                         </div>
                     </div>
@@ -105,7 +105,7 @@ const Paint3 = () => {
             </div>
     </div>
 </div>
-                <div className='img-center1'>
+                <div className='img-small img-center1'>
                     <img  src={y} alt="" />
                     <img src={d} alt="" />
                     <img src={z} alt="" /><br />

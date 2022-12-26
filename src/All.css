@@ -180,6 +180,7 @@
     border-radius: 10px;
     margin: 4px;
     width: 70px;
+    
 }
 
 /* Break point for mobile */
@@ -214,6 +215,28 @@
         margin: 10px;   
         gap: 10px;    
         background-color: aliceblue; 
+    }
+    .img-small img{
+        width: 420px;
+        height: 200px;
+    }
+    .img-small1 img{
+        width: 330px;
+        height: 280px;
+    }
+    .button-col{
+        border: 2px solid black;
+        border-radius: 10px;
+        margin: 4px;
+        width: 20px;
+    }
+    .img-center1{
+        width: 330px;
+        
+    }
+    .img-center1 img{
+        width: 330px;
+        
     }
 }
 
